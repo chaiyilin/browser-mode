@@ -2,7 +2,10 @@
   "name": "@vitest-examples/react",
   "type": "module",
   "scripts": {
-    "test": "vitest"
+    "test": "vitest",
+    "test:browser": "vitest --browser",
+    "test:browser:headless": "vitest --no-watch --browser.headless"
+
   },
   "devDependencies": {
     "@testing-library/react": "^16.3.0",
